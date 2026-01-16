@@ -29,5 +29,7 @@ if __name__ == "__main__":
         print(reverse_string("Hello World"))
         print(reverse_string("Python"))
         reverse_string(123)   # Invalid input example
-    except TypeError as error:
-        print(error)
+    except TypeError as e:
+        print("Error:", e)
+    except Exception as e:
+        print("Error:", e)
