@@ -1,6 +1,6 @@
 def reverse_string(text: str) -> str:
     """
-    Reverses the given string.
+    Function to reverses the given string.
 
     Args:
         text (str): The string that needs to be reversed
