@@ -1,5 +1,3 @@
-#Reverse any string using for loop
-
 def reverse_string(text: str) -> str:
     """
     Reverses the given string.
